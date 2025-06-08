@@ -1,0 +1,69 @@
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro ~ % mkdir git_challenge
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro ~ % cd git_challenge
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/yabeyasutaka/git_challenge/.git/
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % touch hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % ls 
+hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git add hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> add hello_world.txt
+dquote> 
+dquote> "
+Hello, world >> add hello_world.txt
+
+
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world >> hello_world.txt    
+dquote> "
+Hello, world >> hello_world.txt
+
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> hello_world.txt
+dquote> "                   
+Hello, world >> hello_world.txt
+
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> hello_world.txt
+dquote> "
+Hello, world >> hello_world.txt
+
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> hello_world.txt
+dquote> "
+Hello, world >> hello_world.txt
+
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world" >> hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> hello_world.txt
+dquote> 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world\!" >> hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "Hello, world!" >> hello_world.txt 
+dquote> 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo 'Hello, world!' >> hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                 
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo 'Hello, world!' >> hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt                   
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % open hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git commit -m "課題"
+[main (root-commit) 0ad1f40] 課題
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % echo "こんにちは、世界\！" >> hello_world.txt
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git commit -m "課題"                         
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git commit -a -m "課題"
+[main 9310d64] 課題
+ 1 file changed, 2 insertions(+)
+yabeyasutaka@yabeyasushitakashinoMacBook-Pro git_challenge % git log --oneline      
+
+9310d64 (HEAD -> main) 課題
+0ad1f40 課題
